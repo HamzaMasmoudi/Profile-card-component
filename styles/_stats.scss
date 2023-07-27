@@ -1,0 +1,24 @@
+.stats {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 0.063rem solid hsl(0, 0%, 80%);
+  text-align: center;
+  padding: 27px 4.8rem 27px 4.8rem;
+
+  li {
+    .stats-number {
+      color: $font-color;
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+    .stats-description {
+      color: $other-font-color;
+      font-size: 1rem;
+      font-weight: 400;
+      letter-spacing: 0.131rem;
+      padding-top: 0.5rem;
+    }
+  }
+}
